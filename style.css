@@ -1,0 +1,10 @@
+nav > ul{display: flex;} 
+nav li{list-style: none;
+margin-right: 10px;
+padding: 4px;}
+nav li a {text-decoration: none;
+color: rgb(46, 45, 39);}
+nav li :hover{background-color: red;}
+/* nav ul .dropdown{display: none;} */
+nav li .boook{display: none;}
+nav li:hover .boook{display: block;}
